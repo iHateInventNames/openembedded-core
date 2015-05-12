@@ -83,7 +83,7 @@ FILES_cpp = "\
     ${libexecdir}/gcc/${TARGET_SYS}/${BINV}/cc1"
 FILES_cpp-symlinks = "${bindir}/cpp"
 
-FILES_gcov = "${bindir}/${TARGET_PREFIX}gcov"
+FILES_gcov = "${bindir}/${TARGET_PREFIX}gcov*"
 FILES_gcov-symlinks = "${bindir}/gcov"
 
 FILES_g++ = "\
